@@ -1,0 +1,146 @@
+body{
+  margin:0px;
+  background-color:#d6e8b6;
+}
+
+.topLogo{
+  width:11%;
+}
+
+.bannerImage{
+  height:10%;
+  width:70%;
+  margin:1% 0%;
+}
+
+#topResources{
+  width:15%;
+  height:10%;
+  display:inline-block;
+  color:white;
+  vertical-align: bottom;
+  margin-bottom:1%;
+  font-family: 'Kreon', serif;
+}
+
+#topResources li{
+  list-style-type: none;
+  text-align: center;
+  padding:none;
+}
+
+#topResources ul{
+  padding:0px;
+  vertical-align: middle;
+}
+
+#topResources a{
+  color:white;
+}
+
+#topResources li .fa{
+  padding-top: 2%;
+}
+
+header article{
+  background-color:black;
+}
+
+nav{
+  background-color:#94c840;
+  float:clear;
+  text-align: center;
+}
+
+nav ul{
+  margin:0px; 
+  font-size:2rem; 
+}
+
+nav li{
+  list-style-type: none;
+  display:inline-block;
+  margin:0% 2%;
+  font-family: 'Bungee', cursive;
+}
+
+nav a{
+  color:#523e33;
+  text-decoration: none;
+  font-weight:800;
+  text-shadow: 1px 1px white;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+.fa{
+  display:inline-block;
+  padding:0px 3%;
+}
+
+footer{
+  clear:both;
+  background-color:#94c840;
+  margin-bottom:0px;
+  padding:0.5%;
+  text-align: center;
+  font-family: 'Kreon', serif;
+  color:#523e33;
+}
+
+footer li{
+  list-style-type: none;
+  text-align: center;
+  padding:none;
+}
+
+footer li .fa{
+  padding:0.25% 0.5%;
+  
+}
+
+footer li a{
+  color:black;
+  text-decoration:none;
+}
+
+footer p{
+  text-align: center;
+  padding: 0% 20%;
+}
+
+.leftArrow, .rightArrow{
+  height:5rem
+}
+
+.homeImages{
+  content:url(../images/students-competing.jpg);
+  float:right;
+  margin:3%;
+  border: 5px solid black;
+  border-radius:20px;
+}
+
+.homeImages:hover{
+  content: url('../images/students-competing2.jpg');
+  border-color:red;
+}
+
+.overview{
+  background-color:#d6e8b6;
+  margin:0px;
+  padding:1%;
+}
+
+.overview h1{
+  font-family: 'Kreon', serif;
+  font-size:3rem;
+  color:#523e33;
+}
+
+.overview p{
+  font-size:2rem;
+  color:#523e33;
+}
