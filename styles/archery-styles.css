@@ -160,6 +160,8 @@ footer p{
 
 .span_1_of_3 img{
   width: 90%;
+  max-height: 200px;
+  object-fit: cover;
   border-top-left-radius:2rem;
   border-top-right-radius:2rem;
   border:0.25rem ridge #523e33;
