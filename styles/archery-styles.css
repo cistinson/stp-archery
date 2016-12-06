@@ -5,6 +5,7 @@ body{
 
 .topLogo{
   width:11%;
+  padding:0.25%;
 }
 
 .bannerImage{
@@ -138,11 +139,147 @@ footer p{
 
 .overview h1{
   font-family: 'Kreon', serif;
-  font-size:3rem;
+  font-size:4rem;
   color:#523e33;
 }
 
 .overview p{
   font-size:2rem;
   color:#523e33;
+}
+
+.overview div{
+  text-align:center;
+}
+
+.span_1_of_3{
+  width:32%;
+  float:left;
+  margin:0.25%;
+}
+
+.span_1_of_3 img{
+  width: 90%;
+  border-top-left-radius:2rem;
+  border-top-right-radius:2rem;
+  border:0.25rem ridge #523e33;
+  border-bottom:0.5rem ridge black;
+  
+}
+
+.theTeam{
+  text-align: center;
+  margin: 0px;
+}
+
+.group{
+  width:100%;
+  margin:1%;
+}
+
+.group i{
+  margin-top:2%;
+}
+
+h3{
+  font-size: 2rem;
+  margin:0px;
+  padding:0px;
+  list-style-type: none;
+  display:inline-block;
+  margin:0% 2%;
+  font-family: 'Bungee', cursive;
+  font-weight:800;
+  text-shadow: 1px 1px white;
+  color:#523e33;
+}
+
+.group p{
+  margin-top:0px;
+}
+
+.Derek{
+  border-left:0.3rem solid #523e33;
+  border-right:0.3rem solid #523e33;
+}
+
+.classTable{
+  width:80%;
+  align-content: center;
+  margin:0% 10%;
+  margin-bottom:1%;
+  border: 2px solid antiquewhite;
+}
+
+.leftCol{
+  width:10%;
+  font-weight:800;
+  font-size:1.75rem;
+  font-family: 'Kreon', serif;
+  background-color:antiquewhite;
+  padding:0.25%;
+}
+
+.rightCol{
+  width:80%;
+  font-family: 'Kreon', serif;
+  font-size: 1.25rem;
+  background-color:antiquewhite;
+  padding:0.25%;
+}
+
+.topRow{
+  font-family: 'Kreon', serif;
+  font-size:2.5rem;
+  background-color:#94c840;
+  font-family: 'Bungee', cursive;
+  text-shadow: 1px 1px white;
+  color:#523e33;
+  width:80%;
+}
+
+.topRow2{
+  width:20%;
+}
+
+.learnMore a{
+  text-decoration:none;
+  font-family: 'Kreon', serif;
+  color:#523e33;
+  background-color:antiquewhite;
+  padding:0.75%;
+  border-radius:3rem;
+  border:0.2rem solid #523e33;
+}
+
+.learnMore a:hover{
+  text-decoration: underline;
+  font-weight:500;
+}
+
+.h2Section img{
+  width:10%;
+}
+
+h2{
+  font-family: 'Kreon', serif;
+  vertical-align: middle;
+  color:#523e33;
+  font-size:4rem;
+  padding-bottom:0.25%;
+  margin:0px;
+}
+
+.arrowLeft{
+  padding-right:0.5%;
+}
+
+.arrowRight{
+  padding-left:0.5%;
+}
+
+.offeringP{
+  text-align: center;
+  width:80%;
+  margin:0% 10%;
 }
